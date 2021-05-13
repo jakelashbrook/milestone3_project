@@ -1,45 +1,106 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<h1 align="center" id="your-tail">What's your tail?</h1>
 
-Welcome USER_NAME,
+[Insert website screenshot here ]
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+[View the live project here ]
 
-## Gitpod Reminders
+---
+## README Sections 
+<a href="#ux">User Experience</a>  
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<a href="#features">Site Features</a>  
 
-`python3 -m http.server`
+<a href="#tech">Incorporated Technologies</a>  
 
-A blue button should appear to click: *Make Public*,
+<a href="#test">Testing</a>  
 
-Another blue button should appear to click: *Open Browser*.
+<a href="#deploy">Deployment</a>  
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<a href="#credits">Credits</a>
 
-A blue button should appear to click: *Make Public*,
+---
 
-Another blue button should appear to click: *Open Browser*.
+<h2 align="center">An Introduction</h2> 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+We've all had those long days or weeks at work where it get's to 4 o'clock and we're staring at the clock thinking 
+about what beverage we're going to treat ourselves to when we get home. We all know it's naughty, and definitely not 
+good for our bodies if not enjoyed in moderation- but that doesn't stop us from wanting to partake on a journey of creativity 
+and discovery when it comes to enjoying a nice cold beverage after a hard day in the office.
 
-## Updates Since The Instructional Video
+What's your tail? Is a website built around Cocktails, a centre for people to express their creativity and share their ideas 
+and recipes with a like-minded community. Whether you want some inspiration, or you want to inspire others with a mouthwatering 
+concoction of your own discovery or creation- this is the place to be!
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+What's your tail is my third Milestone project for submission to the Code Institute Full Stack Web Development Diploma that 
+I am currently enrolled as a student on. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+---
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<h1 id="ux" align="center">User Experience</h1>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Project Criteria 
+- Design and make a website using HTML, CSS, JS, Python+Flask and MongoDB.
+- Fully incorporate CRUD functionality within the site.
+- Allow users to manage and edit a common dataset.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Specific Site Goals 
+- Create a site that allows users to add, update, and delete their own recipes from the recipe.
+- Allow users to like other users recipes.
+- Make the site easy and intuitive to navigate and use.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Website User Stories 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### First Time User Goals:
+- As a first time user, I want to be able to easily search for recipes based on keyword ingredients I would like to use. 
+- As a first time user, I want to see a selection of recipes to easily browse through for inspiration.
+- As a first time user, I want to be able to easily use the site regardless of the device being used to access it. 
+- As a first time user, I want to be able to select specific categories of recipes. For example, Alcohol or Non-Alcoholic Mocktails.
+- As a first time user, I want to be able to register for an account and contribute my own recipes.
+- As a first time user, I want to be able to intuitively use the site and navigate to specific areas.  
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+#### Registered Account Goals:
+- As a registered user, I want to be able to share my recipes with the website for other users to enjoy.
+- As a registered user, I want to be able to modify or delete my recipes.
+- As a registered user, I want to be able to easily login to and manage my account. 
+- As a registered user, I want to be able to of my account with ease.
+- As a registered user, I want to be able to like other recipes that I have enjoyed or wish to try. 
 
---------
+#### Admin Account Goals: 
+- As the admin user, I want to be able to delete any recipes that do not fit with the site theme of Cocktails.
+- As the admin user, I want to be able to add new categories of Cocktails.
+- As the admin user, I want to be able to remove any categories that do not serve a purpose. #
+- As the admin user, I want to be able to remove any accounts that do not adhere to posting the correct content. 
 
-Happy coding!
+## Design
+
+#### Colour Scheme 
+I used the [Coolors](coolors.co) to generate and find a colour pallette to use for this website. The pallete i decided upon 
+can be found [here](https://coolors.co/fefffe-e5fcf5-b3dec1-210124-750d37). Here is a list of the colours and their respective 
+hex codes:
+- White #FEFFFE
+- Light Cyan #E5FCF5
+- Turquoise Green #B3DEC1 
+- Dark Purple #210124
+- Claret #750D37 
+
+#### Typography 
+
+#### Icons 
+In this project, I will use the Google Icons Library. You can take a look at their library [here](https://fonts.google.com/icons?selected=Material+Icons&icon.query=file)
+
+#### Images 
+Due to users being able to use images URL's when creating their own recipes, Images will come from a variety of sources in the end. 
+However, I will use free stock images from [pexels.com](https://www.pexels.com/) for this project.
+
+
+<h1 id="features" align="center">Site Features</h1>
+
+<h1 id="tech" align="center">Incorporated Technologies</h1>
+
+<h1 id="testing" align="center">Testing</h1>
+
+<h1 id="deploy" align="center">Deployment</h1>
+
+<h1 id="credits" align="center">Credits</h1>
+
+
